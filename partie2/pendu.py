@@ -2,7 +2,7 @@
 
 Il s'appuie sur les fichiers :
 - donnees.py
-- fonctions.py"""
+- partie3.py"""
 
 from partie2.fonctions import *
 
