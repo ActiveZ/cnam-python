@@ -68,6 +68,6 @@ def ZCasino():
             # On affiche l'argent du joueur
             print("Vous avez à présent", argent, "$")
             quitter = input("Souhaitez-vous quitter le casino (o/n) ? ")
-            if quitter == "o" or quitter == "O":
+            if quitter.lower() == "o":
                 print("Vous quittez le casino avec vos gains.")
                 continuer_partie = False
