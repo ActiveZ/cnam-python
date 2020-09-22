@@ -5,7 +5,9 @@ class Joueur:
         self.mise = -1
         self.nombre_mise = -1
 
+
     def miser(self):
+        # on demande au joueur de miser
         while self.mise <= 0 or self.mise > self.argent:
             mise = input("Tapez le montant de votre mise : ")
             # On convertit la mise
@@ -22,7 +24,7 @@ class Joueur:
 
 
     def choixNombre(self):
-        # on demande à l'utilisateur de saisir le nombre sur lequel il va miser
+        # on demande au joueur de saisir le nombre sur lequel il va miser
         while self.nombre_mise < 0 or self.nombre_mise > 49:
             nombre_mise = input("Tapez le nombre sur lequel vous voulez miser (entre 0 et 49) : ")
             # On convertit le nombre misé
@@ -36,6 +38,7 @@ class Joueur:
                 print("Ce nombre est négatif")
             if self.nombre_mise > 49:
                 print("Ce nombre est supérieur à 49")
+
 
     def resetJeu(self):
         self.mise = 0
