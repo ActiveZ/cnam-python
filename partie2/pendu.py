@@ -2,7 +2,7 @@
 
 Il s'appuie sur les fichiers :
 - donnees.py
-- partie3.py"""
+- casino_objet.py"""
 
 from partie2.fonctions import *
 

@@ -1,4 +1,4 @@
-"""Ce fichier définit des partie3 utiles pour le programme pendu.
+"""Ce fichier définit des casino_objet utiles pour le programme pendu.
 
 On utilise les données du programme contenues dans donnees.py"""
 
